@@ -11,7 +11,7 @@ This is a Python package for DeepL translation, I didn't limit the number of tra
 ### Install Package
 
 ```bash
-pip install -git https://github.com/Alberto-Kali/PyDeepLXR.git
+pip install -i https://github.com/Alberto-Kali/PyDeepLXR.git
 ```
 
 ### Use in code
