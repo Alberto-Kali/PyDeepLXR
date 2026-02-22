@@ -1,21 +1,17 @@
-# PyDeepLX
+# PyDeepLX Remastered
 
-A Python package for unlimited DeepL translation
-
-## API Version
-
-[OwO-Network/DeepLX](https://github.com/OwO-Network/DeepLX): Permanently free DeepL API written in Golang.
+A Python package for unlimited DeepL translation with some correctives to work from Russia
 
 ## Description
 
-This is a Python package for DeepL translation, I didn't limit the number of translations in the code, if there is a `429` error, it means your IP has been blocked by DeepL temporarily, please don't request it frequently in a short time.
+This is a Python package for DeepL translation, I didn't limit the number of translations in the code, if there is a `429` error, it means your IP has been blocked by DeepL temporarily or proxy didn't work, please don't request it frequently in a short time and use trusted proxies.
 
 ## Usage
 
 ### Install Package
 
 ```bash
-pip install PyDeepLX
+pip install ...
 ```
 
 ### Use in code
@@ -38,10 +34,7 @@ PyDeepLX.translate("毫无疑问的", "ZH", "EN", 3, True)
 PyDeepLX.translate(text="毫无疑问的", sourceLang="ZH", targetLang="EN", numberAlternative=0, printResult=False, proxies="socks5://127.0.0.1:7890")
 ```
 
-## PyPi
-
-<a href="https://pypi.org/project/PyDeepLX/"><img src="https://img.shields.io/badge/Pypi-000000?style=for-the-badge&logo=pypi&logoColor=red" /></a>
-
-## Author
+## Authors
 
 **PyDeepLX** © [Vincent Young](https://github.com/missuo), Released under the [MIT](./LICENSE) License.<br>
+**PyDeepLX Remaster** © [Alberto Genuardy](https://github.com/Alberto-Kali), Released under the [MIT](./LICENSE) License.<br>
